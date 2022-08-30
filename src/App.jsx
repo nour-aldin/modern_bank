@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './style';
-import { Business, Hero, Navbar, Stats, Billing, CardDeal } from './components';
+import { Business, Hero, Navbar, Stats, Billing, CardDeal,
+  Testimonials, Clients, CTA, Footer } from './components';
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -22,10 +23,10 @@ const App = () => (
         <Business/>
         <Billing/>
         <CardDeal/>
-        Testimonials
-        Clients
-        CTA
-        Footer
+        <Testimonials/>
+        <Clients/>
+        <CTA/>
+        <Footer/>
       </div>
     </div>
   </div>
